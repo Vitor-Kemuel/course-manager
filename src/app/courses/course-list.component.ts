@@ -7,6 +7,7 @@ import { Course } from "./course";
 })
 
 export class CourseListComponent implements OnInit {
+
   courses: Course[] = [];
 
   ngOnInit(): void {
@@ -21,6 +22,7 @@ export class CourseListComponent implements OnInit {
         rating: 5.4,
         releaseDate: 'december, 15, 2008',
       },
+      
       {
         id: 2,
         name: "Informatica para negocio",
